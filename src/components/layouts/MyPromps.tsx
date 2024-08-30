@@ -1,5 +1,5 @@
 import { ContainerGrid } from "../component/ContainerGrid.styled";
-import { DisplayPrompt } from "../groupComponents/DisplayPrompt";
+import { DisplayPrompt } from "./DisplayPrompt";
 
 export function MyPrompts() {
     return (
