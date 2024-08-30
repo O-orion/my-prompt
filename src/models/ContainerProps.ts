@@ -1,5 +1,5 @@
 export default interface ContainerProps {
-    backgroundColor: string,
+    backgroundColor?: string,
     width: string,
     height: string,
     color?: string
