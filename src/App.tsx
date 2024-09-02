@@ -5,7 +5,7 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <Container backgroundColor='#1B1B1B' padding='10px' width='100vw' height='100vh' >
+    <Container backgroundColor='#d9d9d9' padding='10px' width='100vw' height='100vh' >
       <Home></Home>
     </Container>
   );

@@ -2,9 +2,20 @@ import styled from "styled-components";
 
 export const TextPrompt = styled.p`
     font-size: 15px;
-    color: black;
-    word-wrap: break-word;  /* Quebra palavras longas */
-    word-break: break-word; /* Quebra palavras em qualquer ponto, se necessário */
-    white-space: pre-wrap;  /* Mantém os espaços e quebras de linha como no texto original */
-    overflow-wrap: break-word; /* Quebra o texto ao alcançar o limite do container */
+    color: #FFFFFF;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    margin: 5px 0;
+    padding: 8px;
+    background-color: #7289DA;
+    border-radius: 5px;
+    max-width: 80%;
+    align-self: flex-start;
+
+    &:nth-child(even) {
+        background-color: #99AAB5;
+        align-self: flex-end;
+    }
 `;
