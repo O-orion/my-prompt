@@ -14,6 +14,7 @@ const Container = styled.div<ContainerProps>`
     align-items: ${(props) => props.alignItems ? props.alignItems : 'center'};
     overflow-y: ${(props) => props.overflowY ? props.overflowY : 'hidden'};
     font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
 `;
 
 export default Container;

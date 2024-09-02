@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const InputPrompt = styled.textarea`
-    width: 100%;
+    width: 95%;
     height: 60px;
     padding: 10px;
     box-sizing: border-box;
@@ -15,6 +15,7 @@ export const InputPrompt = styled.textarea`
     transition: border 0.3s ease, box-shadow 0.3s ease;
     background-color: #23272A;
     color: #FFFFFF;
+    margin-bottom: 10px;
 
     &:focus {
         border-color: #99AAB5;

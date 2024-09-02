@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const DivMensagens = styled.div`
     width: 100%;
-    height: 80%;
+    height: 90%;
     background-color: #2C2F33;
     color: #FFFFFF;
     margin-bottom: 10px;
