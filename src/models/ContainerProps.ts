@@ -3,6 +3,11 @@ export default interface ContainerProps {
     width: string,
     height: string,
     color?: string
-    margin?: number,
+    margin?: string,
     padding?: string
+    display?: string,
+    flexDirection?: string,
+    alignItems?: string,
+    justifyContent?: string
+    overflowY?: string
 }
